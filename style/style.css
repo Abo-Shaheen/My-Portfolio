@@ -1,0 +1,234 @@
+* {
+    user-select: none;
+    font-family: "Rubik", sans-serif;
+}
+
+html {
+    direction: rtl;
+    background-image: linear-gradient(to right, rgb(0, 6, 51), rgb(55, 0, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    padding-top: 100px;
+    row-gap: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+/*?------Glass edges-------*/
+header ,
+.div-view-work-btn ,
+.article2 ,
+.article3 ,
+.article4 ,
+footer,
+.top{
+    background: rgba(255, 255, 255, 0.034);
+    border: solid 1px rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(7px);
+    display: grid;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* ?----------buttons----------- */
+.header-btn ,
+.view-work-btn,
+.visit,
+.footer-btn,
+.top-btn {
+    border-radius: 30px;
+    border: none;
+    background: rgba(255, 255, 255, 0.637);
+    backdrop-filter: blur(7px);
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.header-btn:hover ,
+.view-work-btn:hover,
+.footer-btn:hover,
+.top-btn:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.footer-btn:hover,
+.visit:hover {
+    box-shadow: 0px 0px 20px rgb(0, 81, 255);
+}
+
+
+/* ? --------Container------- */
+.div-article2,
+.div-article3,
+.div-footer {
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 45px;
+    padding: 10px;
+}
+
+/* ?----------titles---------- */
+.title-div-article2,
+.title-div-article3 {
+    text-align: center;
+}
+
+header {
+    width: min(95%, 400px);
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.article1 {
+    margin-bottom: 50px;
+    color: white;
+    grid-column: 1/3;
+}
+
+.title-div-article1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.Job-title {
+    font-size: 20px;
+}
+
+.div-view-work-btn {
+
+    padding: 5px;
+    width: 140px;
+    height: 50px;
+}
+
+.div-article2,
+.div-article3,
+.div-article4 {
+    box-shadow: 0px 100px 1000000px rgb(1, 90, 255);
+}
+.article2 ,
+.article3 ,
+.article4,
+.Edges-hero-article4 {
+    grid-column: 1/3;
+}
+
+.content-div-article2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-div-article3 {
+    font-size: 20px;
+}
+
+.Edges-hero-article4 {
+    width: 100px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.034);
+    border: solid 1px rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(7px);
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 45px;
+}
+
+.hero-article4 {
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+
+.div-article4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.322);
+    border-radius: 45px;
+    padding: 10px;
+}
+
+.Project1,
+.Project2,
+.Project3 {
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 45px;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1/3;
+}
+
+.img,
+.img1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.visit {
+    width: 130px;
+    height: 50px;
+}
+
+.div-footer {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h6 {
+    grid-column: 1/3;
+}
+
+.div-footer-btns {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 45px;
+    padding: 10px;
+    gap: 10px;
+    width: 200px;
+    grid-column: 1/3;
+}
+
+.top {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.top-btn {
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.glow-active {
+    box-shadow: 0px 0px 20px rgb(0, 81, 255);
+    transition: 0.2s;
+}
