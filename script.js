@@ -79,3 +79,11 @@ document.querySelector(".top-btn").onclick = function () {
         behavior: "smooth"
     });
 };
+
+document.getElementById("stop").onclick = function () {
+    const items = document.querySelectorAll(".div-article2, .div-article3, .div-article4");
+
+    items.forEach(el => {
+        el.classList.toggle("no-shadow");
+    });
+};
