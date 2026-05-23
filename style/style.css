@@ -21,6 +21,11 @@ main {
     gap: 10px;
 }
 
+.nickname {
+    font-size: 40px;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
 /*?------Glass edges-------*/
 header ,
 .div-view-work-btn ,
@@ -80,7 +85,7 @@ footer,
 }
 
 header {
-    width: min(95%, 600px);
+    width: min(90%, 600px);
     height: 50px;
     position: fixed;
     z-index: 9999;
