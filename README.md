@@ -6,7 +6,7 @@ A personal portfolio website showcasing my projects, skills, and personal inform
 
 ## 🚀 Live Demo
 <a href="https://bashmobarmeg.github.io/My-Portfolio/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀 Visit Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visit%20Portfolio-1E90FF?style=for-the-badge" height="45"/>
 </a>
 
 ---
@@ -34,7 +34,7 @@ The website is designed to be simple, responsive, and visually professional.
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bashmobarmeg&show_icons=true&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api?username=bashmobarmeg&show_icons=true&theme=radical" height="180"/>
 
 ---
 
