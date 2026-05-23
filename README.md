@@ -34,7 +34,7 @@ The website is designed to be simple, responsive, and visually professional.
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bashmobarmeg&show_icons=true&theme=tokyonight&cache_seconds=1800)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bashmobarmeg&show_icons=true&theme=radical)
 
 ---
 
