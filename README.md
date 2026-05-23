@@ -5,7 +5,7 @@ A personal portfolio website showcasing my projects, skills, and personal inform
 ---
 
 ## 🚀 Live Demo
-👉 [Visit Website](https://bashmobarmeg.github.io/My-Portfolio/)
+ [Visit Website](https://bashmobarmeg.github.io/My-Portfolio/)
 
 ---
 
