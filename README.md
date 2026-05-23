@@ -45,11 +45,11 @@ The website is designed to be simple, responsive, and visually professional.
 ---
 
 ##  Profile Views
-<div style="font-size:20px;">
-  <img 
-    src="https://komarev.com/ghpvc/?username=bashmobarmeg&style=flat-square&color=0e75b6"
-    height="60"
-  />
+<div>
+
+<img width="190"
+src="https://komarev.com/ghpvc/?username=bashmobarmeg&label=PROFILE+VIEWS&color=0A84FF&style=for-the-badge" />
+
 </div>
 
 ---
