@@ -66,7 +66,7 @@
     }
 }
 
-@media (min-width: 750px) and (max-width: 1219px) {
+@media (min-width: 750px) and (max-width: 949px) {
     .article2{
         grid-column: 1/2;
     }
@@ -142,7 +142,84 @@
 
 }
 
-@media (min-width: 1220px) and (max-width: 5000px) {
+@media  (min-width: 950px) and (max-width: 1219px){
+        .article2{
+        grid-column: 1/2;
+    }
+
+    .article3 {
+        grid-column: 2/3;
+    }
+
+    .content-div-article3 {
+        font-size: 25px;
+    }
+
+    .Project1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,auto);
+        row-gap: 10px;
+    }
+
+    .desc-Project1 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .img1 {
+        grid-column: 1/2;
+    }
+
+    #visit1 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        place-self: center;
+        
+    }
+
+    .Project3 {
+        grid-column: 1/2;
+    }
+
+    .Project2 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .header-btn {
+        font-size: 20px;
+    }
+
+    .div-footer {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr auto 1fr;
+    }
+
+    .div-footer-btns {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+
+    h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 10px;
+        padding: 0px;
+        align-self: end;
+        margin-right: auto;
+    }
+
+    h6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1220px) and (max-width: 1299px) {
     main {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 300px auto auto auto;
@@ -199,12 +276,110 @@
         font-size: 20px;
     }
 
-        .div-footer {
+    .div-footer {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr auto 1fr;
     }
 
     .div-footer-btns {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+
+    h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 10px;
+        padding: 0px;
+        align-self: end;
+        margin-right: auto;
+    }
+
+    h6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1300px) and (max-width:5000px) {
+        main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 300px auto auto auto;
+    }
+
+    .article1 {
+        grid-column: 1/2;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+
+    .article2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .title-div-article2 {
+        font-size: 35px;
+    }
+
+    .content-div-article2 {
+        font-size: 30px;
+    }
+
+    .article3 {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-div-article3 {
+        font-size: 30px;
+    }
+
+    .article4 {
+        grid-column: 1/4;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Project1 {
+        grid-column: 1/2;
+    }
+
+    .Project2 {
+        grid-column: 2/3;
+    }
+
+    .Project3 {
+        grid-column: 3/4;
+    }
+    
+    .div-article4 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, auto);
+    }
+    .Edges-hero-article4 {
+        grid-column: 2/3;
+        top: 240px;
+    }
+
+    .header-btn {
+        font-size: 20px;
+    }
+
+    .div-footer {
+        grid-template-columns: repeat(3,auto);
+    }
+
+    .div-footer-btns {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-column: 1/2;
         grid-row: 1/4;
     }
