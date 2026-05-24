@@ -109,3 +109,7 @@ let observer = new IntersectionObserver(function(entries){
 elements.forEach(function(element){
     observer.observe(element);
 });
+
+document.getElementById("facebook").onclick = function () {
+        window.open("https://www.facebook.com/profile.php?id=61590326522454", "_blank");
+    };
