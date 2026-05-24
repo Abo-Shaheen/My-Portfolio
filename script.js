@@ -112,4 +112,8 @@ elements.forEach(function(element){
 
 document.getElementById("facebook").onclick = function () {
         window.open("https://www.facebook.com/profile.php?id=61590326522454", "_blank");
-    };
+};
+
+document.getElementById("YouTube").addEventListener("click", function () {
+    window.open("https://youtube.com/@baashmobarmeg?si=4mctKGqCKmDlYWfw", "_blank");
+});
