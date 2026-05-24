@@ -43,13 +43,17 @@
     }
 
     .div-footer {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto 1fr auto 1fr;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
     }
 
     .div-footer-btns {
         grid-column: 1/2;
-        grid-row: 2/5;
+        grid-row: 2/4;
+    }
+
+    .footer-btn {
+        padding: 5px;
     }
 
     h5 {
@@ -58,13 +62,11 @@
         margin: 10px;
         padding: 0px;
         align-self: end;
-        text-align: center;
     }
 
     h6 {
         grid-column: 2/3;
         grid-row: 3/4;
-        text-align: center;
     }
 }
 
@@ -118,7 +120,7 @@
     }
 
     .div-footer {
-        grid-template-columns: repeat(auto);
+        grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, auto);
     }
 
@@ -140,8 +142,8 @@
     }
 
     h6 {
-        grid-column: 3/4;
-        grid-row: 2/3;
+        grid-column: 2/3;
+        grid-row: 3/4;
     }
 
 }
@@ -205,6 +207,10 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column: 1/2;
         grid-row: 2/5;
+    }
+
+    #YouTube {
+        grid-column: 1/3;
     }
 
     h5 {
@@ -290,14 +296,16 @@
         grid-column: 1/2;
         grid-row: 2/5;
     }
-    
+
+    #YouTube {
+        grid-column: 1/3;
+    }
 
     h5 {
         grid-column: 2/3;
         grid-row: 2/3;
         margin: 10px;
         padding: 0px;
-        align-self: end;
         margin-right: auto;
     }
 
@@ -308,7 +316,113 @@
     }
 }
 
-@media (min-width: 1300px) and (max-width:5000px) {
+@media (min-width: 1300px) and (max-width:1450px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 300px auto auto auto;
+    }
+
+    .article1 {
+        grid-column: 1/2;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+
+    .article2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .title-div-article2 {
+        font-size: 35px;
+    }
+
+    .content-div-article2 {
+        font-size: 30px;
+    }
+
+    .article3 {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-div-article3 {
+        font-size: 30px;
+    }
+
+    .article4 {
+        grid-column: 1/4;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Project1 {
+        grid-column: 1/2;
+    }
+
+    .Project2 {
+        grid-column: 2/3;
+    }
+
+    .Project3 {
+        grid-column: 3/4;
+    }
+    
+    .div-article4 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, auto);
+    }
+    .Edges-hero-article4 {
+        grid-column: 2/3;
+        top: 240px;
+    }
+
+    .header-btn {
+        font-size: 20px;
+    }
+
+    .div-footer {
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .div-footer-btns {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border-radius: 30px;
+    }
+
+    .footer-btn {
+        padding: 10px;
+        border-radius: 50px;
+    }
+    
+    #YouTube {
+        grid-column: 2/4;
+    }
+
+    h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 10px;
+        padding: 0px;
+        margin-right: auto;
+    }
+
+    h6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1451px) and (max-width:5000px) {
         main {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 300px auto auto auto;
@@ -383,7 +497,7 @@
     }
 
     .div-footer-btns {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-column: 1/2;
         grid-row: 2/3;
@@ -394,6 +508,7 @@
         padding: 10px;
         border-radius: 50px;
     }
+    
 
     h5 {
         grid-column: 2/3;
