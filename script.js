@@ -41,7 +41,7 @@ document.getElementById("Contact").onclick = function () {
 
 document.getElementById("CV").addEventListener("click", function () {
   window.open(
-    "https://drive.google.com/file/d/1JtvB13aiiMZGpAMPs2pi9iN3v320vVHG/view?usp=drive_link",
+    "https://drive.google.com/file/d/1S50sNSR_PkVSbaKshbNVzVn9MlsEbb5K/view?usp=drive_link",
     "_blank"
   );
 });
