@@ -55,7 +55,7 @@ document.querySelector(".view-work-btn").onclick = function () {
 
 // زر visit1
 document.getElementById("visit1").onclick = function () {
-    window.open("https://bashmobarmeg.github.io/My-Portfolio/", "_blank");
+    window.open("https://abo-shaheen.github.io/My-Portfolio/", "_blank");
 };
 
 // زر visit2
