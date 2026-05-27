@@ -60,19 +60,19 @@ document.getElementById("visit1").onclick = function () {
 
 // زر visit2
 document.getElementById("visit2").onclick = function () {
-    window.open("https://bashmobarmeg.github.io/Link-Hub/", "_blank");
+    window.open("https://abo-shaheen.github.io/Link-Hub/", "_blank");
 };
 
 // زر visit3
 document.getElementById("visit3").onclick = function () {
-    window.open("https://bashmobarmeg.github.io/calculator/", "_blank");
+    window.open("https://abo-shaheen.github.io/calculator/", "_blank");
 };
 
 
 
 // زر GitHub
 document.getElementById("GitHub").onclick = function () {
-    window.open("https://github.com/bashmobarmeg", "_blank");
+    window.open("https://github.com/Abo-Shaheen", "_blank");
 };
 
 document.querySelector(".top-btn").onclick = function () {
